@@ -1,0 +1,43 @@
+nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+nav .logotype_of_company {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav .navigation ul {
+  display: inline-flex;
+  gap: 42px;
+  list-style: none;
+}
+nav .navigation ul li {
+  display: block;
+  width: max-content;
+}
+nav .navigation ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+nav .navigation_buttons {
+  display: flex;
+  gap: 40px;
+}
+nav .navigation_buttons .contact-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #FFF;
+}
+nav .navigation_buttons .main-button {
+  color: #343045;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}

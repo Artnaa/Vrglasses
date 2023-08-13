@@ -1,0 +1,46 @@
+.vr_study_cards {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  gap: 11px;
+}
+.vr_study_cards .vr_study_card {
+  padding: 30px;
+  max-width: 310px;
+  width: 100%;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.vr_study_cards .vr_study_card :first-child {
+  border-radius: 50%;
+}
+.vr_study_cards .vr_study_card :nth-child(2) {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 1px solid rgba(192, 183, 232, 0.33);
+  padding-bottom: 10px;
+}
+.vr_study_cards .vr_study_card :nth-child(3) {
+  padding-bottom: 35px;
+}
+.vr_study_cards .vr_study_card :nth-child(4) {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.vr_study_cards .vr_study_card .main-button {
+  margin-bottom: 180px;
+  color: #343045;
+  margin: 0;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

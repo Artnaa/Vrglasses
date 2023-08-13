@@ -1,0 +1,13 @@
+.App {
+  background: #302C42;
+  background-image: url(..//src/Assets/vectors/header_vectors/Group\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #FFF;
+}
+.App .container {
+  margin: 0 auto;
+  max-width: 1272px;
+  width: 100%;
+  border: 3px solid white;
+}

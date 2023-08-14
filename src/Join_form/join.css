@@ -25,6 +25,13 @@ form input {
   font-weight: 400;
   line-height: normal;
 }
+form input::placeholder {
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 form .join_form_title {
   text-align: center;
   margin-bottom: 60px;

@@ -5,6 +5,8 @@ import { header } from './Header/header';
 import {contacts} from './Contacts/contacts';
 import { about } from './about_vr/about';
 import { study } from './study/study';
+import { technologies } from './Technoliges_used_by_hydra/technologies';
+import { joinForm } from './Join_form/join';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       {contacts()}
       {about()}
       {study()}
+      {technologies()}
+      {joinForm()}
       </div>
     </div>
   );

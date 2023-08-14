@@ -1,13 +1,17 @@
 .App {
+  width: 1440px;
+  width: 100%;
+  color: #FFF;
+  background-color: #302C42;
+}
+.App .container {
+  border: 1px solid white;
+  max-width: 1272px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Montserrat;
   background: #302C42;
   background-image: url(..//src/Assets/vectors/header_vectors/Group\ 1.png);
   background-repeat: no-repeat;
   background-position: right;
-  color: #FFF;
-}
-.App .container {
-  margin: 0 auto;
-  max-width: 1272px;
-  width: 100%;
-  border: 3px solid white;
 }

@@ -41,7 +41,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
 }
 .about_vr_glasses .about_hydra_vr_glasses .about_hydra_vr_glasses_left_side .hydravrglasses {
   border-radius: 100px 240px;

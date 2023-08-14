@@ -29,7 +29,15 @@
 .vr_glasses .vr_glasses_left_side .build_world_row {
   display: inline-flex;
   align-items: center;
-  border: 1px solid red;
+}
+.vr_glasses .vr_glasses_left_side .build_world_row .main-button {
+  color: #343045;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
 }
 .vr_glasses .vr_glasses_right_side .vr_glasses_pic {
   z-index: 999;

@@ -9,7 +9,7 @@ import smallarrow from '../Assets/icons/arrow-small-right.svg'
 
 export function technologies() {
   return (
-    <section className='technologies'>
+    <section className='technologies' id='technologies'>
 
       <div className="technologies_by_hydra">
         <div className='hardware'>
@@ -49,7 +49,7 @@ export function technologies() {
         </p>
       </div>
 
-      <div className='steps_to_deploy'>
+      <div className='steps_to_deploy' id='learn'>
 
         <div className='steps_to_deploy_card'>
           <div className='steps_to_deploy_elipses'>

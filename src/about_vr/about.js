@@ -5,7 +5,7 @@ import './about.css'
 
 export function about() {
   return (
-    <section className='about_vr_glasses'>
+    <section className='about_vr_glasses' id='about'>
       <div className='introduction_vr'>
 
         <div className='introduction_vr_content'>

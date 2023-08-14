@@ -7,6 +7,7 @@ import { about } from './about_vr/about';
 import { study } from './study/study';
 import { technologies } from './Technoliges_used_by_hydra/technologies';
 import { joinForm } from './Join_form/join';
+import { footer } from './Fotter/footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       {study()}
       {technologies()}
       {joinForm()}
+      {footer()}
       </div>
     </div>
   );

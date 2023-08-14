@@ -8,7 +8,7 @@ import "./study.css"
 
 export function study() {
   return (
-    <div className="vr_study_cards">
+    <div className="vr_study_cards" id='services'>
       <div className="vr_study_card">
         <img src={card1photo} alt="" />
         <h3>SIMULATION</h3>

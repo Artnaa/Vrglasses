@@ -33,7 +33,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 .technologies .vr_brands .vr_brands_logotypes img {
   opacity: 0.36;

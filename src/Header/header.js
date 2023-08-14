@@ -15,7 +15,7 @@ export function header() {
           nisl tincidunt eget. Lectus mauris eros in vitae .
         </p>
         <div className='build_world_row'>
-          <Button text='BUILD YOUR WORLD' className='main-button' />
+          <Button text='BUILD YOUR WORLD' className={'main-button'} />
           <img src={row} alt="row_icon" />
         </div>
       </div>

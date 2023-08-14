@@ -1,8 +1,11 @@
 import joinvector from '../Assets/vectors/join.png'
+import React from 'react';
 import './join.css'
+
+
 export function joinForm() {
   return(
-    <form>
+    <form name='formSection'>
       <div className="join_form_title">
         <h4 className='bol_dtext_title'>JOIN HYDRA</h4>
         <img src={joinvector} alt="vector"/>

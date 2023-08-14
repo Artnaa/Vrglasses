@@ -1,7 +1,6 @@
 import row from '../Assets/icons/arrow-small-right.svg'
 import Button from '../Helpers/buttons/button';
 import vrglasses from '../Assets/Images/pexels-michelangelo-buonarroti-8728382 1.png'
-import vectorgroup from '../Assets/vectors/header_vectors/Group 1.png'
 import './header.css'
 
 export function header() {

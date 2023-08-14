@@ -1,4 +1,4 @@
-import footerlogo from '../../../vrglasses/src/Assets/icons/lohotype/logofooter.svg'
+import footerlogo from '../Assets/icons/lohotype/logofooter.svg'
 import footerBorder from '../Assets/icons/Vector 20.svg'
 import fbicon from '../Assets/icons/footer_social_contact_icons/facebook.png'
 import igicon from '../Assets/icons/footer_social_contact_icons/instagram.png'

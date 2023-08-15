@@ -13,7 +13,7 @@ import React from 'react';
 import Button from '../Helpers/buttons/button'
 
 export function footer() {
-  
+
   return (
     <footer>
       <div className='footer_content'>
@@ -24,19 +24,19 @@ export function footer() {
 
         <div className='footer_navigation'>
           <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">TECHNOLOGIES</a></li>
-            <li><a href="#">HOW TO</a></li>
-            <li><a href="#">JOYN HYDRA</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#technologies">TECHNOLOGIES</a></li>
+            <li><a href="#learn">HOW TO</a></li>
+            <li><a href="#join">JOYN HYDRA</a></li>
           </ul>
           <img src={footerBorder} alt="" className='footer_border' />
         </div>
 
         <div className='sitemap'>
           <ul>
-            <li><a href="#">F.A.Q</a></li>
-            <li><a href="#">SITEMAP</a></li>
+            <li><a href="#about">F.A.Q</a></li>
+            <li><a href="#services">SITEMAP</a></li>
             <li><a href="#">CONDITIONS</a></li>
             <li><a href="#">LICENSES</a></li>
           </ul>
@@ -46,15 +46,27 @@ export function footer() {
         <div className='social_contacts'>
           <span>SOCIALIZE WITH HYDRA</span>
           <div>
-            <img src={fbicon} alt="icon" />
-            <img src={twittericon} alt="icon" />
-            <img src={linkedinicon} alt="icon" />
-            <img src={youtubeicon} alt="icon" />
-            <img src={igicon} alt="icon" />
-            <img src={pinteresticon} alt="icon" />
+            <a href="https://fb.me" target="_blank" rel="noopener noreferrer">
+              <img src={fbicon} alt="Facebook icon" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <img src={twittericon} alt="Twitter icon" />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <img src={linkedinicon} alt="LinkedIn icon" />
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+              <img src={youtubeicon} alt="YouTube icon" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <img src={igicon} alt="Instagram icon" />
+            </a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
+              <img src={pinteresticon} alt="Pinterest icon" />
+            </a>
           </div>
           <Button
-          
+
             text={"BUILD YOUR WORLD"}
             className={'main-button'}
           />

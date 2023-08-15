@@ -5,7 +5,7 @@ import './join.css'
 
 export function joinForm() {
   return (
-    <form name='formSection'>
+    <form name='formSection' id='join'>
       <div className="join_form_title">
         <h4 className='bol_dtext_title'>JOIN HYDRA</h4>
         <img src={joinvector} alt="vector" />

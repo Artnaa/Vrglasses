@@ -27,6 +27,7 @@ nav .navigation ul li {
 nav .navigation ul li a {
   text-decoration: none;
   color: #FFF;
+  scroll-behavior: smooth;
 }
 nav .navigation_buttons {
   display: flex;

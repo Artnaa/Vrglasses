@@ -67,8 +67,9 @@ footer .footer_content .social_contacts div {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  cursor: pointer;
 }
-footer .footer_content .social_contacts div img {
+footer .footer_content .social_contacts div a img {
   margin: 39px 0 50px 0;
 }
 footer .footer_content .social_contacts .main-button {
